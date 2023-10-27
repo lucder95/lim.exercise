@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 50px 80px;
+}
+
+body {
+  background-image:url(https://marcofalotico.github.io/Boolean_Scooter_Lim/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: limegreen;
+  text-align: center;
+}
+
+.navbar{
+  background-color: limegreen;
+  border-radius: 1px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+li {
+  display: inline;
+}
+button {
+  padding: 0 5px;
+}
+
+.bikes {
+  color: white;
+  margin: 20px auto;
+}
+
+.bike {
+  margin: 30px auto;
+}
+
+.name {
+  font-size: 20px;
+
+}
+
+.monopattino{
+  margin-bottom: 10px;
+}
+
+.address{
+  margin: 10px auto;
+}
+
+.color1{
+  width: 40%;
+  height: 30px;
+  background-color: orange;
+  border-color: orange;
+  border-radius: 5px;
+}
+.color2{
+  width:70%;
+  height: 30px;
+  background-color: green;
+  border-color: green;
+  border-radius: 5px;
+}
+.color3{
+  width: 20%;
+  height: 30px;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+}
